@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tres_leches",
+  "version": "${version}",
+  "name": "Tres Leches",
+  "description": "Enables you to remove blocks from boats and minecarts.",
+  "authors": [{
+    "name": "CompaqDisc",
+    "contact": {
+      "homepage": "https://www.compaqdisc.com/",
+      "discord": "https://discord.gg/zbVvuwd7qW"
+    }
+  }],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/tres-leches",
+    "sources": "https://github.com/compaqdisc/tres-leches",
+    "issues": "https://github.com/CompaqDisc/tres-leches/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/tres_leches/icon.png",
+  "environment": "*",
+  "mixins": [
+    "tres_leches.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.19",
+    "fabric": ">=0.58.0",
+    "fabricloader": ">=0.14.6"
+  }
+}
